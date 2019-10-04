@@ -6,7 +6,7 @@ int main(int argc, char** argv){
   int i;
   double pi = 3.1415;
   char a = 'a';
-  printf("Hello World.\n");
+  printf("Hel   lo World.\n");
 
   printf("== a is: %c\n", a);
   //You use a placeholder wherever you want to print a varible.
@@ -23,4 +23,4 @@ int main(int argc, char** argv){
   //this will read the line from left to right, and the %c will
   //read the varible a, and the %f will read the varible pi.
 
-}
+};
