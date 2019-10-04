@@ -17,7 +17,7 @@ int main(int argc, char** argv){
   //%016.4f the 016.4 controls the formating - 16 means print into
   //a column of 16 charcaters, the .4 says exactly 4 digits after the decimal
   //the 0 says if there isnt enough digits before the decimal, it prints a 0
-  //in the place I.e 0000000003.1415 
+  //in the place I.e 0000000003.1415
 
   printf(" == a is: %c %f\n", a, pi);
   //this will read the line from left to right, and the %c will
