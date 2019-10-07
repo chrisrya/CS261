@@ -1,7 +1,7 @@
 #include <stdio.h>
 
   void make_it_32(int* it){
-    it = 32;
+    it == 32;
   }
 
  int main(int argc, char const *argv[]) {
@@ -19,11 +19,14 @@
   printf("== &n: %p\n", &n);
   printf("== *n_ptr: %p\n", *n_ptr);
 
-  make_it_32(n);
+  make_it_32(&n);
   printf("==n: %d\n", n);
   printf("==n_ptr: %p\n", n_ptr);
   printf("== &n: %p\n", &n);
   printf("== *n_ptr: %p\n", *n_ptr);
+
+  void* v_ptr = &n;
+  printf("==v_ptr: %p\n", v_ptr);
 
 
   return 0;
